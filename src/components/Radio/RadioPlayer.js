@@ -19,13 +19,13 @@ function RadioPlayer() {
     <div className="home-container">
       <header>
         <h1>
-          <span>Radio JonaOchoa Dev</span>
+          <span> Radio JonaDev </span>
         </h1>
         <div className="search">
           <input
             className="inputs"
             type="search"
-            placeholder="Escribe el nombre de la radio"
+            placeholder="Buscar Radio..."
             value={busqueda}
             onChange={(e) => setBusqueda(e.target.value)}
           />
